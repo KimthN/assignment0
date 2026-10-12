@@ -1,1 +1,4 @@
+
+diff text from conflict1
 some diff text
+
