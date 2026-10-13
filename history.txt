@@ -1,0 +1,200 @@
+  139  git status
+  140  git checkout main
+  141  git merge staging
+  142  git log --oneline
+  143  git add .
+  144  git commit -m "update one.txt file"
+  145  git log --oneline
+  146  git checkout d62bb9f
+  147  git checkout main
+  148  git log --oneline
+  149  git diff e87a594 d62bb9f
+  150  q
+  151  Q
+  152  git push origin main
+  153  git checkout staging
+  154  git push origin staging
+  155  git checkout development
+  156  git push origin development
+  157  git checkout main
+  158  git fetch
+  159  git merge 
+  160  git pull
+  161  git remote -v
+  162  cd path/to/your/dog
+  163  cd path/to/your/trinket
+  164  cd Desktop
+  165  git clone https://github.com/jfpelayo/trinket.git
+  166  cd Desktop
+  167  npm install
+  168  cd Desktop
+  169  cd trinket
+  170  npm install
+  171  cd Desktop
+  172  cd trinket
+  173  cd frontend
+  174  npm install
+  175  npx expo start
+  176  npx expo start --clear
+  177  cd Desktop
+  178  cd trinket
+  179  git branch
+  180  cd frontend
+  181  git branch
+  182  git checkout frontend
+  183  "Hello Bash!"
+  184  pwd
+  185  cd Desktop
+  186  mkdir 61D
+  187  cd 61D
+  188  mkdir bash-assignment
+  189  cd bash-assignment
+  190  touch README.md
+  191  touch meaning-of-life.txt
+  192  ls
+  193  mv meaning-of-life.txt history.txt
+  194  code .
+  195  git init
+  196  git status
+  197  git add .
+  198  git status
+  199  git commit -m "Initial commit"
+  200  git checkout -b new-feature
+  201  git branch
+  202  git add feature.txt
+  203  git add .
+  204  git commit -m "Adding feature.txt to new-feature branch"
+  205  git checkout main
+  206  git checkout branch-main
+  207  git checkout -b main
+  208  git branch
+  209  git status
+  210  git merge new-feature -m "Merging changes from new-feature"
+  211  git status
+  212  git branch -d new-feature
+  213  git branch
+  214  git remote add origin https://github.com/KimthN/assignment-0.git
+  215  git branch -M main
+  216  git push -u origin main
+  217  git remote add origin https://github.com/KimthN/assignment-0.git
+  218  git push origin main
+  219  git checkout -b conflict1
+  220  ls
+  221  git checkout main
+  222  touch feature.txt
+  223  ls
+  224  git add feature.txt
+  225  git commit -m "Adding feature.txt to main because didn't do it in step 8 to new-feature and so it wasn't added to main at all when i merged new-feature to main"
+  226  ls
+  227  git checkout conflict1
+  228  ls
+  229  git checkout main
+  230  git push
+  231  git checkout -b conflict1f
+  232  ls
+  233  code feature.txt
+  234  git add feature.txt README.md
+  235  git status
+  236  git commit -m "Added to feature.txt and README.md on branch conflict1f"
+  237  git push origin conflict1f
+  238  git checkout main
+  239  git checkout -b conflict2
+  240  cat feature.txt
+  241  code feature.txt
+  242  git branch
+  243  git log --oneline -n 3
+  244  git checkout main
+  245  cat feature.txt
+  246  cd Desktop
+  247  ls
+  248  "Hello Bash!"
+  249  pwd
+  250  cd Desktop
+  251  mkdir 61D
+  252  cd 61D
+  253  mkdir bash-assignment
+  254  cd bash-assignment
+  255  touch README.md meaning-of-life.txt
+  256  ls
+  257  mv meaning-of-life.txt history.txt
+  258  ls
+  259  code .
+  260  pwd
+  261  git init
+  262  git status
+  263  git add README.md history.txt
+  264  git status
+  265  git commit -m "Initial commit"
+  266  ls
+  267  git branch new-feature
+  268  git branch
+  269  git checkout new-feature
+  270  git branch
+  271  ls
+  272  touch feature.txt
+  273  ls
+  274  git status
+  275  git add feature.txt
+  276  git commit -m "Committed feature.txt to new-feature branch"
+  277  git checkout main
+  278  git checkout main
+  279  ls
+  280  git checkout master
+  281  git branch
+  282  git checkout new-feature
+  283  git branch
+  284  ls
+  285  git add feature.txt
+  286  git commit -m "I went back to add some text to feature.txt in new-feature"
+  287  git checkout master
+  288  ls
+  289  git merge new-feature - "I'm merging the feature.txt and the text in it into the master branch"
+  290  git merge new-feature -m "I'm merging the feature.txt and the text in it into the master branch"
+  291  ls
+  292  git remote add origin https://github.com/KimthN/assignment0.git
+  293  git branch -M main
+  294  git push -u origin main
+  295  git branch
+  296  git branch conflict1
+  297  ls
+  298  git branch
+  299  git checkout conflict1
+  300  ls
+  301  git checkout master
+  302  git checkout main
+  303  git branch
+  304  git branch -d new-feature
+  305  git branch
+  306  git checkout conflict1
+  307  git status
+  308  git diff main conflict1
+  309  git add .
+  310  git status
+  311  git add .
+  312  git status
+  313  git commit -m "I'm commiting conflict1 changes"
+  314  git push origin conflict1
+  315  git checkout main
+  316  git branch conflict2
+  317  git checkout conflict2
+  318  ls
+  319  git add .
+  320  git status
+  321  git commit -m "I'm committing changes to conflict2"
+  322  git push origin conflict2
+  323  git checkout main
+  324  git pull origin main
+  325  git checkout main
+  326  touch .gitignore
+  327  git add .
+  328  git status
+  329  git commit -m "I'm commiting the gitignore"
+  330  touch no-commit.txt
+  331  git status
+  332  git push origin main
+  333  ls
+  334  git pull
+  335  git status
+  336  git commit
+  337  # Write 200 most recent bash commands to history.txt
+  338  history | tail -n 200 >> history.txt
